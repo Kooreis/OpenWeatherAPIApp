@@ -1,8 +1,5 @@
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
-
-class Program
+static async Task Main(string[] args)
 {
-    static readonly HttpClient client = new HttpClient();
+    string city = args[0];
+    string apiKey = "Your_OpenWeatherMap_API_Key";
 }
